@@ -1,0 +1,26 @@
+{
+    "name": "treasurezon extension",
+    "description": "treasurezon extension that shows people deals on Amazon if they open up Amazon and also reloads Amazon under the affiliate link.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options.html",
+    "permissions": ["storage", "activeTab", "scripting", "<all_urls>", "webRequest", "declaritiveNetRequest"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/mascot16.png",
+            "32": "/images/mascot32.png",
+            "48": "/images/mascot48.png",
+            "128": "/images/mascot128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/mascot16.png",
+        "32": "/images/mascot32.png",
+        "48": "/images/mascot48.png",
+        "128": "/images/mascot128.png"
+    }
+}
